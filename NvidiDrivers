@@ -1,0 +1,9 @@
+To uninstal the nvida driers:
+
+systemctl stop ligthdm
+sudo pacman -R nvidia-440xx-utils
+sudo pacman -R linux57-nvidia-440xx lnux58-nvidia-440xx linux414-nvidia-440xx lb32-nvidia-440xx-utils nvidia-prime
+sudo pacman -S linux57-nvidia-450xx linux58-nvidia-450xx lb32-nvidia-450xx-utils nvidia-prime linux414-nvidia-450xx nvidia-450xx-utils
+systemctl start ligthdm
+
+Then on manajaro settins manager uninstall the old driver and install the correct driver version
